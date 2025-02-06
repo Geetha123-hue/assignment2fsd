@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brewed Awakening</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class=logoimg src="logo2.png" height="100" weight="100">
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+
+        <h1>Welcome to Brewed Awakening</h1>
+        <p>Your perfect cup, every time.</p>
+        <a href="#menu" class="cta-button">View Menu</a>
+    </section>
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <h2>Drinks</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="teaex.jpg" alt="Espresso" height="300" width="100">
+                <h3>Espresso</h3>
+                <p>"Strong, smooth espresso, perfect morning kick"</p>
+                <span>$3.00</span>
+            </div>
+            <div class="menu-item">
+                <img src="tea2.jpg" alt="Latte"  height="300" width="100">
+                <h3>Latte</h3>
+                <p>"Creamy latte, cozy morning treat"
+                </p>
+                <span>$4.50</span>
+            </div>
+            <div class="menu-item">
+                <img src="tea3.jpg" alt="Cappuccino" height="300" width="100">
+                <h3>Cappuccino</h3>
+                <p>"Rich cappuccino, creamy texture delight"
+                </p>
+                <span>$4.00</span>
+            </div>
+        </div>
+        
+        <h2>Break Fast</h2>
+        
+        <div class="menu-grid">
+            
+            <div class="menu-item">
+                <img src="sandwich.jpg" alt="Sandwich" height="300" width="100">
+                <h3>Sandwich</h3>
+                <p>"Crispy bread, juicy fillings, pure bliss"</p>
+                <span>$10.00</span>
+            </div>
+            <div class="menu-item">
+                <img src="breakfast.jpg" alt="Bread omlet" height="300" width="100">
+                <h3>Bread Omlet</h3>
+                <p> "Golden bread wraps fluffy omelet perfection"
+                </p>
+                <span>$6.50</span>
+            </div>
+            <div class="menu-item">
+                <img src="pancakes.jpg" alt="Pancakes" height="300" width="100">
+                <h3>Pancakes </h3>
+                <p>"Fluffy pancakes with sweet syrupy goodness"
+                </p>
+                <span>$8.00</span>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+       
+        <div style="width: 100%;">
+            <img src="aboutimg2.jpg" style="float: right; width: 30%; height:auto">
+            <p style="float: right; width: 70%;"><h2>About Us</h2>
+                <p> "Our mission is to create a welcoming space where friends and neighbors can gather, share ideas, and make memories over a perfectly brewed cup.
+                    We believe that great coffee has the power to bring people together, spark creativity, and fuel passions – and we're honored to be a part of your daily routine."
+                </p>
+                <p>"At Brewed Awakening, we value community, quality, and creativity – and we strive to reflect these values in every aspect of our business.
+                        We're dedicated to fostering a culture of warmth, inclusivity, and respect – where every customer feels valued and every team member feels empowered to excel.
+                        From farm to cup, we're committed to transparency, sustainability, and social responsibility – because we believe that great coffee can make a real difference in the world."
+                </p>
+                <p> "Thanks for brewing up a smile with us!"
+
+                </p>
+            </p>
+        </div>
+          
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" onclick="popup()">Send Message</button>
+        </form>
+    </section>
+    
+      
+    <footer>
+        <p>&copy; 2025 Brewed Awakening. All Rights Reserved.</p>
+    </footer>
+</body>
+<script>
+    function popup() {
+      alert("\" Thank you for choosing Brewed Awakening \"")
+    }
+    
+    
+</script>
+    
+</html>
